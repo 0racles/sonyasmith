@@ -1,0 +1,84 @@
+html { 
+ height :100%;
+ width : 100%;
+}
+
+body {
+  height : 100%;
+  width : 100%;
+}
+
+.wrapper {
+  height : 80%;
+  width : 100%;
+  position: relative;
+  background-image : url(../cssParalax/image/h1.png);
+  background-repeat: no-repeat;
+}
+
+div.one {
+  height : 20px;
+  width : 50px;
+  background : green;
+  display : inline-block;
+  position : absolute;
+  top : 220px;
+  left : 450px;
+}
+
+div.two {
+  height : 20px;
+  width : 50px;
+  background : green;
+  display : inline-block;
+  position : absolute;
+  top : 220px;
+  left : 500px;
+}
+
+div.three {
+  height : 20px;
+  width :50px;
+  background : green;
+  position : absolute;
+  top : 240px;
+  left : 400px;
+}
+
+div.four {
+  height : 20px;
+  width : 100px;
+  position : absolute;
+  background : green;
+  left : 450px;
+  top : 240px;
+}
+
+div.five {
+  height : 20px;
+  width : 50px;
+  background : green;
+  position : absolute;
+  left : 550px;
+  top: 240px;
+}
+
+div.six {
+  height : 20px;
+  width : 20px;
+  background : black;
+  border-radius : 100%;
+  position : absolute;
+  left: 450px;
+  top : 245px;
+}
+
+div.seven {
+  height : 20px;
+  width : 20px;
+  background : black;
+  border-radius : 100%;
+  position : absolute;
+  left: 560px;
+  top : 245px;
+}

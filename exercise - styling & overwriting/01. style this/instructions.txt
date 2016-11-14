@@ -1,0 +1,16 @@
+Lesson 3: Exercise 1.
+
+
+Create a file called my.css
+Link this to template.htm, and in my.css write rules to do the following:
+
+- Make the main header background blue
+- Make the <article> h1s green and as big as the main heading
+- Give all  <article>s a red background
+- Make all the headers use a sans-serif font
+- Make the News paragraphs text green
+- Make the footer paragraph text blue
+- Make the footer background black, and the text white
+- Make the hover state on the footer links have black text on a white background
+- Make the default colour of text links grey
+

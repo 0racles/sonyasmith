@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="utf-8">
+			<title>Paralax Home work</title>
+			<link href="../cssParalax/sonyaParalax.css" rel="stylesheet" media="screen">
+		</head>
+		<body>
+			<div class="wrapper">
+				<div class="one"></div>
+				<div class="two"></div>
+				<div class="three"></div>
+				<div class="four"></div>
+				<div class="five"></div>
+				<div class="six"></div>
+				<div class="seven"></div>
+			</div>
+			<script src="js/jquery.min.js"></script>
+			<script type="text/javascript" src="js/jquery.parallax-0.2-min.js"></script>
+			<script type="text/javascript">
+			"use strict";
+			$('.wrapper').parallax({
+  				'elements': [
+  			{
+    			'selector': '.wrapper',
+    				'properties': {
+      					'x': {
+        					'background-position-x': {
+          					'initial': 170,
+          					'multiplier': 0.1,
+          					'invert': true
+        					}
+      					},
+      					'y': {
+        					'background-position-y': {
+          					'initial': 0,
+          					'multiplier': 0.1,
+          					'invert': true
+        				}
+      				}
+    			}
+  			}
+  			]
+			});
+			</script>
+
+		</body>
+	</html>

@@ -1,0 +1,57 @@
+html{
+	text-align:center;  /* center the body's content */
+	
+	background: #aaa; 
+}
+body{  
+	width: 800px;
+	margin: 0 auto; /*center*/
+	padding: 10px;
+	text-align: left; /* reset  from html*/
+	font: normal normal 1em/1.4 sans-serif;
+	color: #000;
+	background: #ccc;
+}
+
+
+section{
+	padding: 10px;
+	margin: 10px 0;
+	border: 2px solid #aaa;
+	
+	background: #bbb;
+}
+section p {color: #333;}
+section > h1 {margin-top: 0;}
+
+h1, .h1 {font-size: 1.4em;}
+h2, .h2 {font-size: 1.3em;}
+h3, .h3 {font-size: 1.15em;}
+h4, .h4 {font-size: 1.0em;}
+
+hgroup h1 {margin-bottom: .2em;}
+hgroup h2 {margin: 0 auto 20px 1em; font-weight: normal; font-size: .95em; font-style: italic;}
+
+
+article{
+	padding: .7em;
+	margin: 10px;
+	background: #d0d0d0;
+}
+
+article > h2 {margin-top: 0; color: #333;}
+
+header{
+	background: #eee;
+	padding: 10px;
+
+}
+
+footer{
+	padding: .7em 10px;
+	text-align: center;
+	font-size: .85em;
+	background: #aaa;
+}
+footer span{ float: right;}
+footer p {margin: 0;}
